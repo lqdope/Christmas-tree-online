@@ -60,7 +60,7 @@ function toggleLed() {
     applyLedState(true);
     setCookie('ledStatus', 'true', 365);
     console.log('ledToggled:', ledToggled);
-    alert("Вы уже отметились✅ Больше нечего нажимать не нужно ;)");
+    alert("Спасибо! Вы уже отметились✅ Больше нечего нажимать не нужно ;)");
   }
 }
 document.addEventListener('DOMContentLoaded', function () {
